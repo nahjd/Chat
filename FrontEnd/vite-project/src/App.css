@@ -1,0 +1,134 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  background-color: #14a7df;
+}
+.container {
+  position: relative;
+  width: 1240px;
+  height: 100vh;
+  background-color: white;
+}
+.person1 {
+  height: 55px;
+  background-color: aqua;
+}
+.person1 p {
+  position: relative;
+  bottom: 85px;
+  width: 250px;
+  /* border: 1px solid red; */
+  font-size: 25px;
+  color: white;
+}
+.person1 span {
+  position: absolute;
+  top: 28px;
+  left: -2px;
+  width: 250px;
+  /* border: 1px solid red; */
+  font-size: 15px;
+  color: black;
+}
+
+.person1 img {
+  width: 51px;
+  position: relative;
+  right: 595px;
+}
+.chat1 {
+  position: absolute;
+
+  bottom: 0;
+}
+.input1 {
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 23px;
+  width: 1150px;
+  border-radius: 8px;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: green;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 15px;
+  width: 50px;
+}
+
+.chat2 {
+  width: 50px;
+}
+.chat2 img {
+  margin-top: 15px;
+  width: 50px;
+}
+.input2 {
+  height: 80px;
+  text-align: center;
+  border: none;
+  margin-left: 45px;
+  background-color: aqua;
+  color: white;
+  border-radius: 25px;
+  font-size: 25px;
+}
+.salam {
+  position: relative;
+  right: 340px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#two img {
+  position: relative;
+  left: 310px;
+}
+#one {
+  position: relative;
+  right: 35px;
+  background-color: #bd1c1c;
+}
